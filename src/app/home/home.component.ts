@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  onClick(): void {
-    alert("app works")
+  onClick(text: string): void {
+    alert(text)
   }
 
 }
